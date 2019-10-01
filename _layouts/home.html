@@ -9,22 +9,13 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
+  {% for c in site.collections %}
+  <h2>{{ c.desc }}</h2>
+  <ul>
+    {% for post in c.docs %}
+      <li><a href="{{ post.url | relative_url }}"><h3>{{ post.title }}</h3></a></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
 
 </div>

@@ -29,6 +29,18 @@ plugins: []
 
 permalink: /:title:output_ext
 
+collections:
+  fsh:
+    desc: File system hierarchy
+    output: true
+    permalink: /:title:output_ext
+
+  uncategorized:
+    desc: Uncategorized
+    output: true
+    permalink: /:title:output_ext
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
