@@ -25,8 +25,7 @@ url: "https://5long.github.io" # the base hostname & protocol for your site, e.g
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-asciidoc
+plugins: []
 
 permalink: /:title:output_ext
 
