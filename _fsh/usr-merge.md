@@ -1,5 +1,5 @@
 ---
-title: /usr merged with /
+title: The /usr Merge
 layout: post
 unpublished: true
 ---
@@ -22,7 +22,11 @@ TL;DR - The following directories are to be merged:
 | OS | Merged /usr |
 | Ubuntu | 19.04 |
 | Debian | 10 |
-| Fedora |  |
-| RHEL / CentOS |  |
-| Arch |  |
+| Fedora | 17 |
+| RHEL / CentOS | 7 |
+| Arch | Since 2013-06-03 |
 | Alpine Linux | ✘ |
+
+## Take-aways
+
+Nothing. This change shouldn't introduce any incompatibilities.
