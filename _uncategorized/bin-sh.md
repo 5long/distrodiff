@@ -22,6 +22,7 @@ a shebang line of `#!/bin/sh` works well in most popular Unices:
 | Debian | [dash] |
 | Fedora / RHEL / CentOS | [bash] |
 | FreeBSD | [Bourne shell with Berkerly extensions][freebsd-sh] |
+| OpenSUSE | [bash] |
 | Ubuntu | [dash] |
 | macOS | [bash] |
 
