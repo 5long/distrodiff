@@ -1,6 +1,5 @@
 ---
 title: Identify Linux Distro and Version
-slug: identify-os
 layout: post
 ---
 

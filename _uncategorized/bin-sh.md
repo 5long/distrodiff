@@ -1,6 +1,5 @@
 ---
 title: "/bin/sh: a de-facto standard"
-slug: bin-sh
 layout: post
 ---
 
