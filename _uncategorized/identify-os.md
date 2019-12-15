@@ -21,11 +21,6 @@ This file is neither systemd-dependant nor Linux-specific. As the
 time of writing, [FreeBSD has adopted this file][freedsd] and it
 should be available starting from FreeVSD v13.
 
-## /etc/issue
-
-The `/etc/issue` file is not designed to identify a Linux machine.
-But it contains the name of Linux distro and version number by default.
-
 ## Distro-specific Methods
 
 Many Linux distros have introduced their own method of
