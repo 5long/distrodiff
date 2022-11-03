@@ -16,7 +16,7 @@
 title: OSDiff
 email: callme5long@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Documenting differences between operating systems.
+  Documenting subtle differences between operating systems.
 baseurl: "/osdiff" # the subpath of your site, e.g. /blog
 url: "https://5long.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
