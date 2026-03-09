@@ -18,8 +18,8 @@ identification data in a [sh]-compatible syntax, allowing users to
 a [dotenv] file, or simply view / parse it as a plain text file.
 
 This file is neither systemd-dependant nor Linux-specific. As the
-time of writing, [FreeBSD has adopted this file][freedsd] and it
-should be available starting from FreeVSD v13.
+time of writing, [FreeBSD has adopted this file][freebsd] and it
+should be available starting from FreeBSD v13.
 
 ## Distro-specific Methods
 
